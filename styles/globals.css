@@ -1,1 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #FDF8F3;
+  color: #222;
+}
+
+body {
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app {
+  width: 100%;
+  max-width: 430px;
+  min-height: 100vh;
+  margin: auto;
+  background: #FDF8F3;
+}
+
+.screen {
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary-btn {
+  width: 100%;
+  background: #D94B3D;
+  color: white;
+  padding: 16px;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.secondary-btn {
+  width: 100%;
+  background: white;
+  color: #D94B3D;
+  padding: 16px;
+  border-radius: 16px;
+  border: 2px solid #D94B3D;
+  font-size: 16px;
+  font-weight: 600;
+}
